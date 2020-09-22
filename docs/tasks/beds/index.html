@@ -445,11 +445,11 @@
 
 
 
-<a href="https://github.com/google/docsy-example/edit/master/content/en/docs/Tasks/beds.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
-<a href="https://github.com/google/docsy-example/issues/new?title=Bed%20and%20Chair%20Metrics" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
+<a href="https://github.com/salt-and-iron/salt-and-iron-project/edit/master/content/en/docs/Tasks/beds.md" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page</a>
+<a href="https://github.com/salt-and-iron/salt-and-iron-project/issues/new?title=Bed%20and%20Chair%20Metrics" target="_blank"><i class="fab fa-github fa-fw"></i> Create documentation issue</a>
 
 
-<a href="https://github.com/google/docsy/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
+<a href="https://github.com/salt-and-iron/salt-and-iron.github.io/issues/new" target="_blank"><i class="fas fa-tasks fa-fw"></i> Create project issue</a>
 
 </div>
 
@@ -818,68 +818,8 @@ This is a warning with a title.
 <pre><code>This is the final element on the page and there should be no margin below this.
 </code></pre>
 	
-		<style>
-  .feedback--answer {
-    display: inline-block;
-  }
-  .feedback--answer-no {
-    margin-left: 1em;
-  }
-  .feedback--response {
-    display: none;
-    margin-top: 1em;
-  }
-  .feedback--response__visible {
-    display: block;
-  }
-</style>
-<h2 class="feedback--title">Feedback</h2>
-<p class="feedback--question">Was this page helpful?</p>
-<button class="feedback--answer feedback--answer-yes">Yes</button>
-<button class="feedback--answer feedback--answer-no">No</button>
-<p class="feedback--response feedback--response-yes">
-  Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
-</p>
-<p class="feedback--response feedback--response-no">
-  Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.
-</p>
-<script>
-  const yesButton = document.querySelector('.feedback--answer-yes');
-  const noButton = document.querySelector('.feedback--answer-no');
-  const yesResponse = document.querySelector('.feedback--response-yes');
-  const noResponse = document.querySelector('.feedback--response-no');
-  const disableButtons = () => {
-    yesButton.disabled = true;
-    noButton.disabled = true;
-  };
-  const sendFeedback = (value) => {
-    if (typeof ga !== 'function') return;
-    const args = {
-      command: 'send',
-      hitType: 'event',
-      category: 'Helpful',
-      action: 'click',
-      label: window.location.pathname,
-      value: value
-    };
-    ga(args.command, args.hitType, args.category, args.action, args.label, args.value);
-  };
-  yesButton.addEventListener('click', () => {
-    yesResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(1);
-  });
-  noButton.addEventListener('click', () => {
-    noResponse.classList.add('feedback--response__visible');
-    disableButtons();
-    sendFeedback(0);
-  });
-</script>
-
-		<br />
 	
-	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified 22.09.2020: <a  href="https://github.com/google/docsy-example/commit/4952a236baf1e8f475d340729962b3fe79f799bc">Initial Hugo and Docsy setup (4952a23)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified 22.09.2020: <a  href="https://github.com/salt-and-iron/salt-and-iron-project/commit/4952a236baf1e8f475d340729962b3fe79f799bc">Initial Hugo and Docsy setup (4952a23)</a>
 </div>
 </div>
 
@@ -895,30 +835,6 @@ This is a warning with a title.
         
         
         
-<ul class="list-inline mb-0">
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="User mailing list" aria-label="User mailing list">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://example.org/mail">
-      <i class="fa fa-envelope"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://example.org/twitter">
-      <i class="fab fa-twitter"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Stack Overflow" aria-label="Stack Overflow">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://example.org/stack">
-      <i class="fab fa-stack-overflow"></i>
-    </a>
-  </li>
-  
-</ul>
-
-        
-        
       </div>
       <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
         
@@ -927,20 +843,8 @@ This is a warning with a title.
 <ul class="list-inline mb-0">
   
   <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="GitHub" aria-label="GitHub">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://github.com/google/docsy">
+    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://github.com/salt-and-iron/salt-and-iron-project">
       <i class="fab fa-github"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Slack" aria-label="Slack">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://example.org/slack">
-      <i class="fab fa-slack"></i>
-    </a>
-  </li>
-  
-  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="Developer mailing list" aria-label="Developer mailing list">
-    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://example.org/mail">
-      <i class="fa fa-envelope"></i>
     </a>
   </li>
   
@@ -952,8 +856,6 @@ This is a warning with a title.
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
         <small class="text-white">&copy; 2020 Phoenix All Rights Reserved</small>
         <small class="ml-1"><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></small>
-	
-		<p class="mt-2"><a href="/about/">About Goldydocs</a></p>
 	
       </div>
     </div>
